@@ -59,14 +59,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#121212", // Dark background
   },
   card: {
     width: "100%",
     maxWidth: 350,
-    backgroundColor: "#fff",
-    borderRadius: 10,
+    backgroundColor: "#1E1E1E", // Slightly lighter than the container for contrast
+    borderRadius: 8,
     padding: 20,
+    marginBottom: 20,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -77,13 +78,14 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   question: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: "bold",
+    color: "#E0E0E0", // Light grey for high contrast text
     marginBottom: 20,
   },
   answer: {
-    fontSize: 16,
-    color: "#333",
+    fontSize: 18,
+    color: "#BDBDBD", // Slightly dimmer grey for the answer text
     marginBottom: 20,
   },
   buttonContainer: {
@@ -91,13 +93,15 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   button: {
-    backgroundColor: "#007bff",
-    padding: 10,
+    backgroundColor: "#6200EE", // Vibrant color for buttons to stand out
+    padding: 12,
     borderRadius: 5,
+    elevation: 2, // Add elevation for depth
   },
   buttonText: {
-    color: "#fff",
-    textAlign: "center",
+    color: "#FFFFFF", // White text for readability
+    fontWeight: "500",
+    fontSize: 16,
   },
 });
 
