@@ -6,7 +6,7 @@ This flashcard app is designed with simplicity in mind. Users are presented with
 
 The purpose behind creating this app was to delve into the practical application of React Native for mobile development, focusing on state management, user interaction, and rendering dynamic content. This project served as an excellent opportunity to reinforce my understanding of these concepts while providing a useful tool for learners.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/MA6C9KlWTrU)
 
 # Development Environment
 
